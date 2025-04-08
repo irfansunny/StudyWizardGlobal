@@ -3,13 +3,13 @@ import { useState, useEffect } from "react";
 import { useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { z } from "zod";
-import { Redirect } from "wouter";
+import { Redirect, Link, useLocation } from "wouter";
 import { Button } from "@/components/ui/button";
 import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "@/components/ui/form";
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Loader2 } from "lucide-react";
+import { Loader2, ArrowLeft, Home } from "lucide-react";
 import { insertUserSchema } from "@shared/schema";
 
 // Extend the schema with additional validations
@@ -24,6 +24,7 @@ const registerSchema = loginSchema;
 export default function AuthPage() {
   const { user, loginMutation, registerMutation } = useAuth();
   const [activeTab, setActiveTab] = useState<string>("login");
+  const [location] = useLocation();
 
   // Create forms for login and registration
   const loginForm = useForm<z.infer<typeof loginSchema>>({
@@ -57,7 +58,26 @@ export default function AuthPage() {
   }
 
   return (
-    <div className="min-h-screen flex flex-col md:flex-row">
+    <div className="min-h-screen flex flex-col">
+      {/* Navigation Bar */}
+      <div className="bg-white shadow-sm p-4">
+        <div className="container mx-auto flex justify-between items-center">
+          <div className="flex items-center space-x-4">
+            <Button variant="ghost" size="sm" asChild>
+              <Link href="/" className="flex items-center">
+                <Home className="mr-1 h-4 w-4" /> Home
+              </Link>
+            </Button>
+            <Button variant="ghost" size="sm" asChild>
+              <Link href="/services" className="flex items-center">
+                <ArrowLeft className="mr-1 h-4 w-4" /> Back to Services
+              </Link>
+            </Button>
+          </div>
+        </div>
+      </div>
+      
+      <div className="flex-grow flex flex-col md:flex-row">
       {/* Hero section */}
       <div className="bg-primary/10 md:w-1/2 p-8 flex flex-col justify-center">
         <div className="max-w-md mx-auto">
