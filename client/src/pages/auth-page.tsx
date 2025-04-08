@@ -9,7 +9,8 @@ import { Form, FormControl, FormField, FormItem, FormLabel, FormMessage } from "
 import { Input } from "@/components/ui/input";
 import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
-import { Loader2, ArrowLeft, Home } from "lucide-react";
+import { Loader2, ArrowLeft } from "lucide-react";
+import logoImage from "../assets/logo.png";
 import { insertUserSchema } from "@shared/schema";
 
 // Extend the schema with additional validations
@@ -64,7 +65,8 @@ export default function AuthPage() {
           <div className="flex items-center space-x-4">
             <Button variant="ghost" size="sm" asChild>
               <Link href="/" className="flex items-center">
-                <Home className="mr-1 h-4 w-4" /> Home
+                <img src={logoImage} alt="Edge Education Logo" className="h-5 w-auto mr-2" />
+                Edge Education
               </Link>
             </Button>
             <Button variant="ghost" size="sm" asChild>

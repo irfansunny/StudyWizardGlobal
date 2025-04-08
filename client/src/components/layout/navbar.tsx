@@ -42,9 +42,6 @@ const Navbar = () => {
               </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
-              <Link href="/" className="border-primary text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
-                Home
-              </Link>
               
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
@@ -118,9 +115,6 @@ const Navbar = () => {
       {/* Mobile menu */}
       <div className={`sm:hidden ${isMobileMenuOpen ? 'block' : 'hidden'}`}>
         <div className="pt-2 pb-3 space-y-1">
-          <Link href="/" className="bg-primary-50 border-primary text-primary-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
-            Home
-          </Link>
           
           <button 
             className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium flex justify-between items-center w-full"
