@@ -12,6 +12,7 @@ import {
   Menu, 
   X 
 } from "lucide-react";
+import logoImage from "../../assets/logo.png";
 
 const Navbar = () => {
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
@@ -35,7 +36,10 @@ const Navbar = () => {
           {/* Logo and desktop nav */}
           <div className="flex">
             <div className="flex-shrink-0 flex items-center">
-              <Link href="/" className="text-primary text-xl font-bold">GlobalEduConnect</Link>
+              <Link href="/" className="flex items-center">
+                <img src={logoImage} alt="Edge Education Logo" className="h-10 w-auto mr-2" />
+                <span className="text-primary text-xl font-bold">Edge Education</span>
+              </Link>
             </div>
             <div className="hidden sm:ml-6 sm:flex sm:space-x-8">
               <Link href="/" className="border-primary text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">

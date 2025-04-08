@@ -6,6 +6,7 @@ import {
   Linkedin, 
   Youtube 
 } from "lucide-react";
+import logoImage from "../../assets/logo.png";
 
 const Footer = () => {
   return (
@@ -13,7 +14,10 @@ const Footer = () => {
       <div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:py-16 lg:px-8">
         <div className="xl:grid xl:grid-cols-3 xl:gap-8">
           <div className="space-y-8 xl:col-span-1">
-            <div className="text-white text-2xl font-bold">GlobalEduConnect</div>
+            <div className="flex items-center">
+              <img src={logoImage} alt="Edge Education Logo" className="h-10 w-auto mr-2" />
+              <span className="text-white text-2xl font-bold">Edge Education</span>
+            </div>
             <p className="text-slate-400 text-base">
               Your trusted partner for international education opportunities. We help students achieve their dreams of studying abroad through personalized guidance and support.
             </p>
@@ -167,7 +171,7 @@ const Footer = () => {
         </div>
         <div className="mt-12 border-t border-slate-700 pt-8">
           <p className="text-base text-slate-400 xl:text-center">
-            &copy; {new Date().getFullYear()} GlobalEduConnect. All rights reserved.
+            &copy; {new Date().getFullYear()} Edge Education. All rights reserved.
           </p>
         </div>
       </div>

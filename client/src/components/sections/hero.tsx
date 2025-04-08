@@ -1,5 +1,6 @@
 import { Link } from "wouter";
 import { Button } from "@/components/ui/button";
+import logoImage from "../../assets/logo.png";
 
 const Hero = () => {
   return (
@@ -9,12 +10,15 @@ const Hero = () => {
           <div className="relative pt-6 px-4 sm:px-6 lg:px-8"></div>
           <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
             <div className="sm:text-center lg:text-left">
+              <div className="mb-6 flex items-center sm:justify-center lg:justify-start">
+                <img src={logoImage} alt="Edge Education Logo" className="h-16 w-auto mr-3" />
+              </div>
               <h1 className="text-4xl tracking-tight font-extrabold text-slate-900 sm:text-5xl md:text-6xl">
                 <span className="block xl:inline">Your Journey to</span>
                 <span className="block text-primary xl:inline"> Global Education</span>
               </h1>
               <p className="mt-3 text-base text-slate-600 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
-                Comprehensive guidance for students seeking to study abroad. From counseling to visa processing, we help you navigate every step of your international education journey.
+                Edge Education provides comprehensive guidance for students seeking to study abroad. From counseling to visa processing, we help you navigate every step of your international education journey.
               </p>
               <div className="mt-5 sm:mt-8 sm:flex sm:justify-center lg:justify-start">
                 <div className="rounded-md shadow">
