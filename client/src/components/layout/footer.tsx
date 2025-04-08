@@ -52,27 +52,27 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#usa" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/destinations/usa" className="text-base text-slate-400 hover:text-slate-300">
                       Study in USA
                     </Link>
                   </li>
                   <li>
-                    <Link href="#canada" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/destinations/canada" className="text-base text-slate-400 hover:text-slate-300">
                       Study in Canada
                     </Link>
                   </li>
                   <li>
-                    <Link href="#uk" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/destinations/uk" className="text-base text-slate-400 hover:text-slate-300">
                       Study in UK
                     </Link>
                   </li>
                   <li>
-                    <Link href="#australia" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/destinations/australia" className="text-base text-slate-400 hover:text-slate-300">
                       Study in Australia
                     </Link>
                   </li>
                   <li>
-                    <Link href="#europe" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/destinations/europe" className="text-base text-slate-400 hover:text-slate-300">
                       Study in Europe
                     </Link>
                   </li>
@@ -84,27 +84,27 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#services" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/services" className="text-base text-slate-400 hover:text-slate-300">
                       Counseling
                     </Link>
                   </li>
                   <li>
-                    <Link href="#services" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/services" className="text-base text-slate-400 hover:text-slate-300">
                       University Admissions
                     </Link>
                   </li>
                   <li>
-                    <Link href="#services" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/services" className="text-base text-slate-400 hover:text-slate-300">
                       Scholarship Guidance
                     </Link>
                   </li>
                   <li>
-                    <Link href="#services" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/services" className="text-base text-slate-400 hover:text-slate-300">
                       Visa Processing
                     </Link>
                   </li>
                   <li>
-                    <Link href="#services" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/services" className="text-base text-slate-400 hover:text-slate-300">
                       Documentation Support
                     </Link>
                   </li>
@@ -118,27 +118,27 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <Link href="#about" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/about" className="text-base text-slate-400 hover:text-slate-300">
                       About Us
                     </Link>
                   </li>
                   <li>
-                    <Link href="#testimonials" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/#testimonials" className="text-base text-slate-400 hover:text-slate-300">
                       Success Stories
                     </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/" className="text-base text-slate-400 hover:text-slate-300">
                       Blog
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/about" className="text-base text-slate-400 hover:text-slate-300">
                       Careers
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <Link href="#contact" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/contact" className="text-base text-slate-400 hover:text-slate-300">
                       Contact
                     </Link>
                   </li>
@@ -150,19 +150,19 @@ const Footer = () => {
                 </h3>
                 <ul className="mt-4 space-y-4">
                   <li>
-                    <a href="#" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/privacy-policy" className="text-base text-slate-400 hover:text-slate-300">
                       Privacy Policy
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/terms-of-service" className="text-base text-slate-400 hover:text-slate-300">
                       Terms of Service
-                    </a>
+                    </Link>
                   </li>
                   <li>
-                    <a href="#" className="text-base text-slate-400 hover:text-slate-300">
+                    <Link href="/cookie-policy" className="text-base text-slate-400 hover:text-slate-300">
                       Cookie Policy
-                    </a>
+                    </Link>
                   </li>
                 </ul>
               </div>

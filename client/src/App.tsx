@@ -10,6 +10,9 @@ import ContactPage from "@/pages/contact-page";
 import DestinationDetail from "@/pages/destinations/destination-detail";
 import AuthPage from "@/pages/auth-page";
 import AdminDashboard from "@/pages/admin-dashboard";
+import PrivacyPolicy from "@/pages/privacy-policy";
+import TermsOfService from "@/pages/terms-of-service";
+import CookiePolicy from "@/pages/cookie-policy";
 import Navbar from "@/components/layout/navbar";
 import Footer from "@/components/layout/footer";
 import { AuthProvider } from "@/hooks/use-auth";
@@ -33,6 +36,9 @@ function Router() {
           <Route path="/destinations/:id" component={DestinationDetail} />
           <Route path="/auth" component={AuthPage} />
           <ProtectedRoute path="/admin" component={AdminDashboard} />
+          <Route path="/privacy-policy" component={PrivacyPolicy} />
+          <Route path="/terms-of-service" component={TermsOfService} />
+          <Route path="/cookie-policy" component={CookiePolicy} />
           {/* Fallback to 404 */}
           <Route component={NotFound} />
         </Switch>
