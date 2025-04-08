@@ -1,0 +1,27 @@
+{
+  "name": "Edge Education Template",
+  "version": "1.0.0",
+  "description": "A comprehensive study abroad consultancy website template",
+  "author": "Edge Education",
+  "license": "MIT",
+  "files": [
+    "README.md",
+    "CUSTOMIZATION.md",
+    "WORDPRESS_INTEGRATION.md",
+    "LICENSE",
+    "edge-education-template",
+    "assets"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/edge-education/edge-education-template"
+  },
+  "keywords": [
+    "education",
+    "study-abroad",
+    "consultancy",
+    "react",
+    "tailwind",
+    "typescript"
+  ]
+}
