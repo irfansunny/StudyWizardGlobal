@@ -105,7 +105,7 @@ const Destinations = () => {
                   ))}
                 </div>
                 <Button asChild className="mt-6">
-                  <Link href="#contact">Explore {destination.name} Options</Link>
+                  <Link href={`/destinations/${destination.id}`}>Explore {destination.name} Options</Link>
                 </Button>
               </div>
 
@@ -135,7 +135,7 @@ const Destinations = () => {
                   <p className="mt-2 text-slate-600">
                     {destination.description}
                   </p>
-                  <Link href="#contact" className="mt-4 inline-flex items-center text-primary hover:text-primary-600">
+                  <Link href={`/destinations/${destination.id}`} className="mt-4 inline-flex items-center text-primary hover:text-primary-600">
                     Learn more <span className="ml-1">→</span>
                   </Link>
                 </CardContent>

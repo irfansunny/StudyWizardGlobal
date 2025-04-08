@@ -55,36 +55,36 @@ const Navbar = () => {
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="start" className="w-56">
                   <DropdownMenuItem asChild>
-                    <Link href="#usa" className="w-full">USA</Link>
+                    <Link href="/destinations/usa" className="w-full">USA</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="#canada" className="w-full">Canada</Link>
+                    <Link href="/destinations/canada" className="w-full">Canada</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="#uk" className="w-full">UK</Link>
+                    <Link href="/destinations/uk" className="w-full">UK</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="#australia" className="w-full">Australia</Link>
+                    <Link href="/destinations/australia" className="w-full">Australia</Link>
                   </DropdownMenuItem>
                   <DropdownMenuItem asChild>
-                    <Link href="#europe" className="w-full">Europe</Link>
+                    <Link href="/destinations/europe" className="w-full">Europe</Link>
                   </DropdownMenuItem>
                 </DropdownMenuContent>
               </DropdownMenu>
               
-              <Link href="#services" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/services" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Services
               </Link>
               
-              <Link href="#about" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/about" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 About Us
               </Link>
               
-              <Link href="#testimonials" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/#testimonials" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Success Stories
               </Link>
               
-              <Link href="#faq" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/#faq" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 FAQ
               </Link>
             </div>
@@ -93,7 +93,7 @@ const Navbar = () => {
           {/* Contact Us button (desktop) */}
           <div className="hidden sm:ml-6 sm:flex sm:items-center">
             <Button asChild>
-              <Link href="#contact">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
 
@@ -131,40 +131,40 @@ const Navbar = () => {
           </button>
           
           <div className={`pl-4 ${isMobileDestinationsOpen ? 'block' : 'hidden'}`}>
-            <Link href="#usa" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+            <Link href="/destinations/usa" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
               USA
             </Link>
-            <Link href="#canada" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+            <Link href="/destinations/canada" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
               Canada
             </Link>
-            <Link href="#uk" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+            <Link href="/destinations/uk" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
               UK
             </Link>
-            <Link href="#australia" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+            <Link href="/destinations/australia" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
               Australia
             </Link>
-            <Link href="#europe" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+            <Link href="/destinations/europe" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
               Europe
             </Link>
           </div>
           
-          <Link href="#services" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/services" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             Services
           </Link>
           
-          <Link href="#about" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/about" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             About Us
           </Link>
           
-          <Link href="#testimonials" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/#testimonials" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             Success Stories
           </Link>
           
-          <Link href="#faq" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/#faq" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             FAQ
           </Link>
           
-          <Link href="#contact" className="border-transparent text-primary hover:bg-primary-50 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/contact" className="border-transparent text-primary hover:bg-primary-50 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             Contact Us
           </Link>
         </div>
