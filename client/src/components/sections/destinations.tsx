@@ -52,7 +52,7 @@ const Destinations = () => {
         { text: "Vibrant multicultural cities" },
         { text: "Strong research opportunities" }
       ],
-      image: ""
+      image: "https://images.unsplash.com/photo-1566733971016-e5aee086bbdf?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     },
     {
       id: "europe",
@@ -64,7 +64,7 @@ const Destinations = () => {
         { text: "Strong international networks" },
         { text: "Diverse program offerings" }
       ],
-      image: ""
+      image: "https://images.unsplash.com/photo-1541778956252-a6e3e17884db?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80"
     }
   ];
 
@@ -105,9 +105,7 @@ const Destinations = () => {
                   ))}
                 </div>
                 <Button asChild className="mt-6">
-                  <Link href="#contact">
-                    <a>Explore {destination.name} Options</a>
-                  </Link>
+                  <Link href="#contact">Explore {destination.name} Options</Link>
                 </Button>
               </div>
 
@@ -137,10 +135,8 @@ const Destinations = () => {
                   <p className="mt-2 text-slate-600">
                     {destination.description}
                   </p>
-                  <Link href="#contact">
-                    <a className="mt-4 inline-flex items-center text-primary hover:text-primary-600">
-                      Learn more <span className="ml-1">→</span>
-                    </a>
+                  <Link href="#contact" className="mt-4 inline-flex items-center text-primary hover:text-primary-600">
+                    Learn more <span className="ml-1">→</span>
                   </Link>
                 </CardContent>
               </Card>
