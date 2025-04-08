@@ -12,12 +12,12 @@ const Cta = () => {
         <div className="mt-8 flex lg:mt-0 lg:flex-shrink-0">
           <div className="inline-flex rounded-md shadow">
             <Button asChild variant="secondary">
-              <Link href="#contact">Contact Us</Link>
+              <Link href="/contact">Contact Us</Link>
             </Button>
           </div>
           <div className="ml-3 inline-flex rounded-md shadow">
             <Button asChild>
-              <Link href="#services">Learn More</Link>
+              <Link href="/services">Learn More</Link>
             </Button>
           </div>
         </div>

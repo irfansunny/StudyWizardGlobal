@@ -80,11 +80,11 @@ const Navbar = () => {
                 About Us
               </Link>
               
-              <Link href="/#testimonials" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 Success Stories
               </Link>
               
-              <Link href="/#faq" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
+              <Link href="/" className="border-transparent text-slate-700 hover:border-slate-300 hover:text-slate-900 inline-flex items-center px-1 pt-1 border-b-2 text-sm font-medium">
                 FAQ
               </Link>
             </div>
@@ -156,11 +156,11 @@ const Navbar = () => {
             About Us
           </Link>
           
-          <Link href="/#testimonials" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             Success Stories
           </Link>
           
-          <Link href="/#faq" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
+          <Link href="/" className="border-transparent text-slate-500 hover:bg-slate-50 hover:border-slate-300 hover:text-slate-700 block pl-3 pr-4 py-2 border-l-4 text-base font-medium">
             FAQ
           </Link>
           

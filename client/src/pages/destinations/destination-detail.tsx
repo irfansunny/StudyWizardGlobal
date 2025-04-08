@@ -178,8 +178,8 @@ export default function DestinationDetail() {
           <Button className="bg-teal-600 hover:bg-teal-700" size="lg" asChild>
             <Link href="/auth">Register for Consultation</Link>
           </Button>
-          <Button variant="outline" size="lg">
-            Contact Us
+          <Button variant="outline" size="lg" asChild>
+            <Link href="/contact">Contact Us</Link>
           </Button>
         </div>
       </div>
